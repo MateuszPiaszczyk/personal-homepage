@@ -3,6 +3,7 @@ import { ThemeProvider } from "styled-components";
 
 import { Normalize } from "styled-normalize";
 import { selectDarkTheme } from "../../common/themeSlice";
+import { PersonalHompage } from "../../features/personalHompage";
 import { GlobalStyle } from "./GlobalStyle";
 import { themeDark, themeLight } from "./theme";
 
@@ -13,7 +14,7 @@ export const App = () => {
     <ThemeProvider theme={darkTheme ? themeDark : themeLight}>
       <Normalize />
       <GlobalStyle />
-   
+    <PersonalHompage />
     </ThemeProvider>
   );
 };

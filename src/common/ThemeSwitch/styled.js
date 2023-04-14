@@ -1,4 +1,6 @@
-import styled from "styled-component";
+import { css } from "styled-components";
+import styled from "styled-components";
+import {ReactComponent as BrightnessIcon} from "./brightness.svg";
 
 export const Wrapper = styled.div`
   display: flex;
@@ -47,4 +49,8 @@ export const IconWrapper = styled.span`
     css`
       transform: translateX(20px);
     `}
+`;
+
+export const Icon = styled(BrightnessIcon)`
+  color: ${({ theme }) => theme.colors.themeSwitch.icon};
 `;
