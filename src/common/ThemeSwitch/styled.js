@@ -1,6 +1,5 @@
-import { css } from "styled-components";
-import styled from "styled-components";
-import {ReactComponent as BrightnessIcon} from "./brightness.svg";
+import styled, { css } from "styled-components";
+import { ReactComponent as BrightnessIcon } from "./brightness.svg";
 
 export const Wrapper = styled.div`
   display: flex;

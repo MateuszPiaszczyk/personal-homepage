@@ -14,7 +14,7 @@ export const MainInformation = () => {
   <Wrapper>
     <Avatar src={MateuszPiaszczykProfile} alt="Mateusz Piaszczyk" />
     <div>
-      <ThisIs>This is</ThisIs>
+      <ThisIs>My Name is</ThisIs>
       <FullName>Mateusz Piaszczyk</FullName>
       <Summary>
         👨🏻‍💻 I’m a passionate Frontend Developer in love with React,currently

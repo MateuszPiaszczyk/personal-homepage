@@ -1,23 +1,23 @@
 import { call, delay, put, takeLatest } from "redux-saga/effects";
-import { getRepositories } from "./personalHompageApi";
+import { getRepositories } from "./personalHomepageAPI";
 import {
   fetchRepositories,
   fetchRepositoriesError,
   fetchRepositoriesSuccess,
-} from "./personalHompageSlice";
+} from "./personalHomepageSlice";
 
-const loadingDelay = 1500;
+const loadingDelay = 1_500;
 
 function* fetchRepositoriesHandler({ payload: username }) {
   try {
     yield delay(loadingDelay);
-    const repositories = call(getRepositories, username);
-    yield PushSubscription(fetchRepositoriesSuccess(repositories));
+    const repositories = yield call(getRepositories, username);
+    yield put(fetchRepositoriesSuccess(repositories));
   } catch (error) {
     yield put(fetchRepositoriesError());
   }
 }
 
-export function* personalHompageSaga() {
+export function* personalHomepageSaga() {
   yield takeLatest(fetchRepositories.type, fetchRepositoriesHandler);
 }

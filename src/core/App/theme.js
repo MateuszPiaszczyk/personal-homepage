@@ -70,12 +70,12 @@ export const themeDark = {
         headerLine: colorNames.mercury,
         tile: {
             header: colorNames.scienceBlue,
-            border: colorNames.alto,
+            border: colorNames.ironTransparent,
             borderHover: colorNames.blumine,
         },
         themeSwitch: {
-            background: colorNames.mercury,
-            icon: colorNames.mineShaft,
+            background: colorNames.mineShaft,
+            icon: colorNames.mineShaftLighter,
         },
     },
 };
