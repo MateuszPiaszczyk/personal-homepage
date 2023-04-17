@@ -1,5 +1,5 @@
 import { ThemeSwitch } from "../../common/ThemeSwitch";
-import { Footer } from "./Footer";
+
 import { MainInformation } from "./Maininformation";
 import { Portfolio } from "./Portfolio";
 import { Skills } from "./Portfolio/Content/Skills";
@@ -7,6 +7,7 @@ import { nextSkills, skills } from "./skillsData";
 import { Container, Icon } from "./styled";
 import toolsIcon from "./images/tools.webp";
 import rocketIcon from "./images/rocket.webp";
+import { Footer } from "./Footer";
 
 export const PersonalHomepage = () => (
     <Container>
@@ -32,6 +33,6 @@ export const PersonalHomepage = () => (
             />
             <Portfolio />
     </main>
-    <Footer />
+  <Footer />
     </Container>
 )

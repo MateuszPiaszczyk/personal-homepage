@@ -3,7 +3,7 @@ import { Description, Link, Links, LinksRow, LinksValue, List, Name, Tile } from
 export const Repositories = ({ repositories }) => (
   <List>
     {repositories.map(
-      ({ id, name, description, hompage: homepage, html_url }) => (
+      ({ id, name, description, homepage, html_url }) => (
         <Tile key={id}>
           <Name>{name}</Name>
           <Description>{description}</Description>

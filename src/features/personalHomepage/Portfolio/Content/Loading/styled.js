@@ -9,10 +9,11 @@ const rotate = keyframes`
 
 export const Wrapper = styled.div`
     text-align: center;
-    color: ${({theme}) => theme.colors.textPrimary}
+    color: ${({ theme }) => theme.colors.textPrimary};
     font-size: 20px;
     margin-top: 80px;
     justify-items: center;
+    display: grid;
 
     @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
     font-size: 17px;
@@ -22,7 +23,7 @@ export const Wrapper = styled.div`
 
 export const StyledSpinner = styled(Spinner)`
     animation: ${rotate} 1s linear infinite;
-    color: ${({theme}) => theme.colors.primary}
+    color: ${({ theme }) => theme.colors.primary};
     height: auto;
     margin-top: 48px;
 

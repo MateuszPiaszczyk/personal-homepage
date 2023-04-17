@@ -10,7 +10,7 @@ import {
   Wrapper,
 } from "./styled";
 
-export const MainInformation = () => {
+export const MainInformation = () => (
   <Wrapper>
     <Avatar src={MateuszPiaszczykProfile} alt="Mateusz Piaszczyk" />
     <div>
@@ -25,5 +25,5 @@ export const MainInformation = () => {
         Hire Me
       </StyledButtonLink>
     </div>
-  </Wrapper>;
-};
+  </Wrapper>
+);

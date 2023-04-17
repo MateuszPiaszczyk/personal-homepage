@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+
 export const List = styled.ul`
   display: flex;
   list-style: none;
@@ -27,12 +28,12 @@ export const Link = styled.a`
   transition: color 0.3s;
 
   &:hover {
-    ${({ theme }) => theme.colors.primary};
+   color: ${({ theme }) => theme.colors.primary};
   }
 `;
 
-export const styleIcon = (Icon) => styled(Icon)`
-  height: auto;
+export const styleIcon = Icon => styled(Icon)`
+  height: auto; 
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
     width: 32px;
