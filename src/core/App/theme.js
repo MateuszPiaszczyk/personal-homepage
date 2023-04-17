@@ -31,7 +31,7 @@ export const themeLight = {
         textPrimary: colorNames.mineShaft,
         site: {
             background: colorNames.whiteLilac,
-            text: colorNames.slateGray,
+            text: colorNames.mineShaft,
         },
         buttonLink: {
             text: colorNames.white,
