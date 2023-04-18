@@ -67,7 +67,7 @@ export const themeDark = {
             shodaw: colorNames.anakiwa,
         },
         boxBackground: colorNames.mineShaftLighter,
-        headerLine: colorNames.mercury,
+        headerLine: colorNames.mineShaft,
         tile: {
             header: colorNames.scienceBlue,
             border: colorNames.ironTransparent,
