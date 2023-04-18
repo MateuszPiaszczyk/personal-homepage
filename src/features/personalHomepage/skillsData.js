@@ -20,6 +20,10 @@ export const skills = [
   "NPM",
   "React",
   "Git",
+  "Figma",
+  "Adobe Photoshop",
+  "Affinity Desinger",
+  "Affinity Photo",
 ];
 
 export const nextSkills = [
