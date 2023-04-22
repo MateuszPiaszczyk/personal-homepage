@@ -18,6 +18,7 @@ export const Button = styled.button`
 
 export const Text = styled.span`
   font-size: 12px;
+  margin-top: 22px;
   font-weight: bold;
   text-transform: uppercase;
   margin-right: 12px;
@@ -30,18 +31,20 @@ export const Text = styled.span`
 export const Box = styled.span`
   display: flex;
   width: 48px;
+  margin-top: 22px;
   border-radius: 12px;
   padding: 3px;
   background: ${({ theme }) => theme.colors.themeSwitch.background};
-  border: 1px solid;
+  border: 1px solid ${({ theme }) => theme.colors.themeSwitch.border};
+  
 `;
 
 export const IconWrapper = styled.span`
-  background: currentColor;
+  background: ${({ theme }) => theme.colors.themeSwitch.iconWrapper};
   padding: 3px;
   border-radius: 50%;
   display: flex;
-  transition: transform 0.3s;
+  transition: transform 0.5s;
 
   ${({ moveToRight }) =>
     moveToRight &&

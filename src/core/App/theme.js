@@ -22,6 +22,7 @@ const common = {
   },
   boxShadow:
     "0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03)",
+  themeAnimation: "0.5s",
   borderRadiusSmall: "4px",
 };
 
@@ -29,6 +30,7 @@ export const themeLight = {
   ...common,
   colors: {
     primary: colorNames.scienceBlue,
+    hover: colorNames.dodgerBlue,
     textPrimary: colorNames.mineShaft,
     site: {
       background: colorNames.whiteLilac,
@@ -43,11 +45,13 @@ export const themeLight = {
     headerLine: colorNames.mercury,
     tile: {
       header: colorNames.scienceBlue,
-      border: colorNames.alto,
+      border: colorNames.ironTransparent,
       borderHover: colorNames.tropicalBlue,
     },
     themeSwitch: {
       background: colorNames.mercury,
+      border: colorNames.slateGray,
+      iconWrapper: colorNames.slateGray,
       icon: colorNames.white,
     },
   },
@@ -75,7 +79,9 @@ export const themeDark = {
       borderHover: colorNames.blumine,
     },
     themeSwitch: {
-      background: colorNames.mineShaft,
+      background: colorNames.ironTransparent,
+      border: colorNames.white,
+      iconWrapper: colorNames.white,
       icon: colorNames.mineShaftLighter,
     },
   },

@@ -17,7 +17,7 @@ export const List = styled.ul`
 export const Tile = styled.li`
   margin: 0;
   padding: 56px;
-  border: 4px solid ${({ theme }) => theme.colors.tile.border};
+  border: 5px solid ${({ theme }) => theme.colors.tile.border};
   transition: border-color 0.3s;
   border-radius: ${({ theme }) => theme.borderRadiusSmall};
   box-shadow: ${({ theme }) => theme.boxShadow};
@@ -79,8 +79,11 @@ export const Link = styled.a`
   padding-bottom: 1px;
   color: ${({ theme }) => theme.colors.primary};
   border-bottom: 1px solid ${({ theme }) => α(theme.colors.primary, 0.2)};
+  transition: ${({ theme }) => theme.themeAnimation};
+
 
   &:hover {
     border-color: unset;
+    color: ${({ theme }) => theme.colors.hover};
   }
 `;

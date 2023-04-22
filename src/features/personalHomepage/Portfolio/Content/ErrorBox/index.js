@@ -14,5 +14,5 @@ export const ErrorBox = () => {
     <ButtonLink href={`https://github.com/${githubUsername}`} target="_blank">
       Go to GitHub
     </ButtonLink>
-  </Wrapper>;
+  </Wrapper>
 };

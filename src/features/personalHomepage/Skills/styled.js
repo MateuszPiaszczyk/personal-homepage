@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { SubHeader } from "../../SubHeader";
+import { SubHeader } from "../Portfolio/SubHeader";
 import { ReactComponent as BulletIcon } from "./bullet.svg";
 
 export const Section = styled.section`

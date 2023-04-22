@@ -1,7 +1,7 @@
-import { ThemeSwitch } from "../../common/ThemeSwitch";
+import { ThemeSwitch } from "./ThemeSwitch";
 import { MainInformation } from "./Maininformation";
 import { Portfolio } from "./Portfolio";
-import { Skills } from "./Portfolio/Content/Skills";
+import { Skills } from "./Skills";
 import { nextSkills, skills } from "./skillsData";
 import { Container, Icon } from "./styled";
 import toolsIcon from "./images/tools.webp";
@@ -25,7 +25,7 @@ export const PersonalHomepage = () => (
       <Skills
         title={
           <>
-            My skillset includes <Icon src={rocketIcon} alt="" />
+            What I want to learn next <Icon src={rocketIcon} alt="" />
           </>
         }
         skills={nextSkills}
