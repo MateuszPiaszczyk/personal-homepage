@@ -1,7 +1,7 @@
 # Mateusz Piaszczyk - Personal Frontend Developer Portfolio
 ![WirtualneCV - Mateusz Piaszczyk](https://piaszczykstudio.pl/wp-content/uploads/2023/04/Zrzut-ekranu-2023-04-18-o-20.04.32.png)
 ## Description / Opis
-ENG: This website is my portfolio. Here you can find links to my recent projects and list of skills. You can also find my email and socials links. PL: Ta strona to moje portfolio. Tutaj znajdziesz linki do moich ostatnich projektów oraz listę umiejętności. Możesz również znaleźć moje linki e-mail i społecznościowe.
+ENG: This website is my portfolio. Here you can find links to my recent projects and list of skills. You can also find my email and socials links. 
 
 ## Technologies and practices used / Technologie i praktyki
 `JavaScript ES+` `React` `Redux` `Redux-saga` `API` `axios` `styled-component` `RWD` `Normalize` `Immuntabbility` `Accesability` `color-alpha`
