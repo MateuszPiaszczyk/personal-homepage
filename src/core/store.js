@@ -7,12 +7,11 @@ import themeSlice from "../common/themeSlice";
 const sagaMiddleware = createSagaMiddleware();
 
 const store = configureStore({
-    reducer: {
-      personalHomepage: personalHomepageSlice,
-      theme: themeSlice,
-        
-    },
-    middleware: [sagaMiddleware],
+  reducer: {
+    personalHomepage: personalHomepageSlice,
+    theme: themeSlice,
+  },
+  middleware: [sagaMiddleware],
 });
 
 sagaMiddleware.run(saga);

@@ -26,6 +26,4 @@ export const skills = [
   "Affinity Photo",
 ];
 
-export const nextSkills = [
-    "TypeScript"
-]
+export const nextSkills = ["TypeScript"];

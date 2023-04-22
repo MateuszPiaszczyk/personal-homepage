@@ -17,6 +17,8 @@ export const Content = ({ status, repositories }) => {
       return <Repositories repositories={repositories} />;
 
     default:
-      throw new Error(`ENG: INCORRECT STATUS: / PL: NIEPRAWIDŁOWY STAN: ${status}`);
+      throw new Error(
+        `ENG: INCORRECT STATUS: / PL: NIEPRAWIDŁOWY STAN: ${status}`
+      );
   }
 };

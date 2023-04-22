@@ -28,11 +28,11 @@ export const {
   fetchRepositoriesError,
 } = personalHomepageSlice.actions;
 
-const selectPersonalHomepageState = state => state.personalHomepage;
+const selectPersonalHomepageState = (state) => state.personalHomepage;
 
-export const selectRepositories = state =>
+export const selectRepositories = (state) =>
   selectPersonalHomepageState(state).repositories;
-export const selectRepositoriesStatus = state =>
+export const selectRepositoriesStatus = (state) =>
   selectPersonalHomepageState(state).status;
 
 export default personalHomepageSlice.reducer;

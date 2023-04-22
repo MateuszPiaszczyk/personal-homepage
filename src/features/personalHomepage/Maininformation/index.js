@@ -1,5 +1,5 @@
 import { email } from "../email";
-import MateuszPiaszczykProfile from "./profile.webp";
+import ProfilePicture from "./profile.webp";
 import {
   Avatar,
   ButtonIcon,
@@ -12,7 +12,7 @@ import {
 
 export const MainInformation = () => (
   <Wrapper>
-    <Avatar src={MateuszPiaszczykProfile} alt="Mateusz Piaszczyk" />
+    <Avatar src={ProfilePicture} alt="Mateusz Piaszczyk" />
     <div>
       <ThisIs>My Name is</ThisIs>
       <FullName>Mateusz Piaszczyk</FullName>

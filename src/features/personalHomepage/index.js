@@ -1,5 +1,4 @@
 import { ThemeSwitch } from "../../common/ThemeSwitch";
-
 import { MainInformation } from "./Maininformation";
 import { Portfolio } from "./Portfolio";
 import { Skills } from "./Portfolio/Content/Skills";
@@ -10,29 +9,29 @@ import rocketIcon from "./images/rocket.webp";
 import { Footer } from "./Footer";
 
 export const PersonalHomepage = () => (
-    <Container>
+  <Container>
     <ThemeSwitch />
     <MainInformation />
 
     <main>
-        <Skills
-            title={(
-                <>
-                My skillset includes <Icon src={toolsIcon} alt="" />
-                </>
-            )}
-            skills={skills}
-            />
-        <Skills
-            title={(
-                <>
-                My skillset includes <Icon src={rocketIcon} alt="" />
-                </>
-            )}
-            skills={nextSkills}
-            />
-            <Portfolio />
+      <Skills
+        title={
+          <>
+            My skillset includes <Icon src={toolsIcon} alt="" />
+          </>
+        }
+        skills={skills}
+      />
+      <Skills
+        title={
+          <>
+            My skillset includes <Icon src={rocketIcon} alt="" />
+          </>
+        }
+        skills={nextSkills}
+      />
+      <Portfolio />
     </main>
-  <Footer />
-    </Container>
-)
+    <Footer />
+  </Container>
+);
