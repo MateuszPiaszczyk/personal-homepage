@@ -16,6 +16,7 @@ export const skills = [
   "Promises, Async/Await",
   "GitHub Pull Requests & Review",
   "Trello",
+  "Team Work",
   "Scrum",
   "NPM",
   "React",
@@ -24,6 +25,9 @@ export const skills = [
   "Adobe Photoshop",
   "Affinity Desinger",
   "Affinity Photo",
+  "Affinity Publisher",
+  "Bootstrap",
+  
 ];
 
 export const nextSkills = ["TypeScript"];
