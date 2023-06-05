@@ -30,4 +30,7 @@ export const skills = [
   
 ];
 
-export const nextSkills = ["TypeScript"];
+export const nextSkills = [
+  "TypeScript",
+  "Node.js"
+];
