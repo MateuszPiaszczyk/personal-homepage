@@ -3,7 +3,7 @@
 ## Description 
 This website is my portfolio. Here you can find links to my recent projects and list of skills. You can also find my email and socials links. 
 
-## Technologies and practices used / Technologie i praktyki
+## Technologies and practices used 
 `JavaScript ES+` `React` `Redux` `Redux-saga` `API` `axios` `styled-component` `RWD` `Normalize` `Immuntabbility` `Accesability` `color-alpha`
 
 ## Demo Link
